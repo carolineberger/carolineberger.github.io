@@ -7,7 +7,7 @@ body {
 }
 
 .typewriter h2 {
-    font-size: 20;
+    font-size: 1.5vw;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
     border-right: .1em;
@@ -16,11 +16,16 @@ body {
     /* Keeps the content on a single line */
     margin: 0 auto;
     /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em;
+    letter-spacing: .01em;
     /* Adjust as needed */
     animation:
         typing 3.5s steps(40, end),
         blink-caret .75s step-end;
+}
+
+h3 {
+    font-size: 1.5vw;
+
 }
 
 /* The typing effect */
