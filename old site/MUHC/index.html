@@ -1,0 +1,211 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charSet="UTF-8"/>
+    <title>Figma Prototype Export</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        /* http://meyerweb.com/eric/tools/css/reset/
+       v2.0 | 20110126
+       License: none (public domain)
+    */
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+
+        blockquote, q {
+            quotes: none;
+        }
+
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        /* OWN CSS */
+        body {
+            font-family: Helvetica, sans-serif;
+        }
+
+        li:first-child {
+            margin-bottom: 8pt;
+        }
+
+        #helper {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            position: fixed;
+            bottom: 16pt;
+            right: 16pt;
+            padding: 8pt;
+            border-radius: 4pt;
+        }
+
+        #helper svg {
+            margin-right: 4pt;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+    </style>
+
+    <script>
+      const frames = {"0w2":{"id":"0w2","name":"Logged-out","clickableChildren":{"0w3":{"name":"Status Bar","type":"FRAME","x":0,"y":0,"rotation":0},"0w23":{"name":"Connections","type":"FRAME","x":293,"y":15,"rotation":0},"0w24":{"name":"Battery","type":"FRAME","x":43,"y":2,"rotation":0},"0w28":{"name":"Wifi","type":"FRAME","x":20,"y":1,"rotation":0},"0w33":{"name":"Cellular Connection","type":"FRAME","x":0,"y":2,"rotation":0},"0w39":{"name":"Time","type":"FRAME","x":21,"y":8,"rotation":0},"0w44":{"name":"Button","destination":"0w68","x":16,"y":727,"w":167,"h":52,"rotation":0},"0w69":{"name":"Button","destination":"0w47","x":192,"y":727,"w":167,"h":52,"rotation":0}}},"0w68":{"id":"0w68","name":"Login","clickableChildren":{"0w327":{"name":"Button","destination":"0w78","x":16,"y":312,"w":343,"h":52,"rotation":0},"0w328":{"name":"Keyboard","type":"FRAME","x":0,"y":521,"rotation":0},"0w330":{"name":"Home Indicator","type":"FRAME","x":0,"y":257,"rotation":0},"0w333":{"name":"Dictation","type":"FRAME","x":328,"y":239,"rotation":0},"0w341":{"name":"Emoji","type":"FRAME","x":26,"y":237,"rotation":0},"0w349":{"name":"Return","type":"FRAME","x":285,"y":170,"rotation":0},"0w352":{"name":"Spacebar","type":"FRAME","x":96,"y":170,"rotation":0},"0w355":{"name":"Lowercase","type":"FRAME","x":0,"y":0,"rotation":0},"0w357":{"name":"123","type":"FRAME","x":3,"y":170,"rotation":0},"0w360":{"name":"Backspace","type":"FRAME","x":330,"y":116,"rotation":0},"0w367":{"name":"Shift","type":"FRAME","x":3,"y":116,"rotation":0},"0w373":{"name":"Alphabet","type":"FRAME","x":285,"y":116,"rotation":0},"0w376":{"name":"Alphabet","type":"FRAME","x":247,"y":116,"rotation":0},"0w379":{"name":"Alphabet","type":"FRAME","x":210,"y":116,"rotation":0},"0w382":{"name":"Alphabet","type":"FRAME","x":172,"y":116,"rotation":0},"0w385":{"name":"Alphabet","type":"FRAME","x":134,"y":116,"rotation":0},"0w388":{"name":"Alphabet","type":"FRAME","x":97,"y":116,"rotation":0},"0w391":{"name":"Alphabet","type":"FRAME","x":59,"y":116,"rotation":0},"0w394":{"name":"Alphabet","type":"FRAME","x":322,"y":62,"rotation":0},"0w397":{"name":"Alphabet","type":"FRAME","x":284,"y":62,"rotation":0},"0w400":{"name":"Alphabet","type":"FRAME","x":247,"y":62,"rotation":0},"0w403":{"name":"Alphabet","type":"FRAME","x":209,"y":62,"rotation":0},"0w406":{"name":"Alphabet","type":"FRAME","x":172,"y":62,"rotation":0},"0w409":{"name":"Alphabet","type":"FRAME","x":134,"y":62,"rotation":0},"0w412":{"name":"Alphabet","type":"FRAME","x":97,"y":62,"rotation":0},"0w415":{"name":"Alphabet","type":"FRAME","x":59,"y":62,"rotation":0},"0w418":{"name":"Alphabet","type":"FRAME","x":22,"y":62,"rotation":0},"0w421":{"name":"Alphabet","type":"FRAME","x":341,"y":8,"rotation":0},"0w424":{"name":"Alphabet","type":"FRAME","x":303,"y":8,"rotation":0},"0w427":{"name":"Alphabet","type":"FRAME","x":266,"y":8,"rotation":0},"0w430":{"name":"Alphabet","type":"FRAME","x":228,"y":8,"rotation":0},"0w433":{"name":"Alphabet","type":"FRAME","x":191,"y":8,"rotation":0},"0w436":{"name":"Alphabet","type":"FRAME","x":153,"y":8,"rotation":0},"0w439":{"name":"Alphabet","type":"FRAME","x":116,"y":8,"rotation":0},"0w442":{"name":"Alphabet","type":"FRAME","x":78,"y":8,"rotation":0},"0w445":{"name":"Alphabet","type":"FRAME","x":41,"y":8,"rotation":0},"0w448":{"name":"Alphabet","type":"FRAME","x":3,"y":8,"rotation":0},"0w759":{"name":"Union","destination":"0w2","x":16,"y":60,"w":12.207107543945312,"h":11.353558540344238,"rotation":3.1805546814635168e-15},"I0w676;0w49":{"name":"Connections","type":"FRAME","x":293,"y":15,"rotation":0},"I0w676;0w51":{"name":"Battery","type":"FRAME","x":43,"y":2,"rotation":0},"I0w676;0w55":{"name":"Wifi","type":"FRAME","x":20,"y":1,"rotation":0},"I0w676;0w60":{"name":"Cellular Connection","type":"FRAME","x":0,"y":2,"rotation":0},"I0w676;0w66":{"name":"Time","type":"FRAME","x":21,"y":8,"rotation":0}}},"0w78":{"id":"0w78","name":"Discover--overflow-behavior-","clickableChildren":{"0w583":{"name":"Frame","destination":"0w92","x":16,"y":187,"w":343,"h":387,"rotation":0,"type":"FRAME"},"0w82":{"name":"Rectangle 2.3","destination":"0w83","x":192,"y":981,"w":167,"h":310,"rotation":0},"0w588":{"name":"Background","type":"FRAME","x":0,"y":0,"rotation":0},"0w594":{"name":"40 / Toolbar / new","type":"FRAME","x":11,"y":9,"rotation":0},"0w660":{"name":"40 / Toolbar / search","destination":"0w90","x":82,"y":9,"w":40,"h":40,"rotation":0,"parent":"0w588","type":"FRAME"},"0w671":{"name":"40 / Toolbar / new","type":"FRAME","x":153,"y":9,"rotation":0},"0w626":{"name":"40 / Toolbar / Comment","destination":"0w627","x":254,"y":9,"w":40,"h":40,"rotation":0,"parent":"0w588","type":"FRAME"},"0w666":{"name":"40 / Toolbar / bell","destination":"0w88","x":324,"y":9,"w":40,"h":40,"rotation":0,"parent":"0w588","type":"FRAME"},"I0w677;0w49":{"name":"Connections","type":"FRAME","x":293,"y":15,"rotation":0},"I0w677;0w51":{"name":"Battery","type":"FRAME","x":43,"y":2,"rotation":0},"I0w677;0w55":{"name":"Wifi","type":"FRAME","x":20,"y":1,"rotation":0},"I0w677;0w60":{"name":"Cellular Connection","type":"FRAME","x":0,"y":2,"rotation":0},"I0w677;0w66":{"name":"Time","type":"FRAME","x":21,"y":8,"rotation":0}}},"0w92":{"id":"0w92","name":"Photo-open--overlay-","clickableChildren":{"0w715":{"name":"32 / x","type":"FRAME","x":329,"y":44,"rotation":0}}},"0w83":{"id":"0w83","name":"Photo-open--overlay-","clickableChildren":{"0w721":{"name":"32 / x","type":"FRAME","x":329,"y":44,"rotation":0}}},"0w90":{"id":"0w90","name":"Search","clickableChildren":{"0w680":{"name":"Component","destination":"0w681","x":16,"y":148,"w":343,"h":52,"rotation":0},"I0w750;0w49":{"name":"Connections","type":"FRAME","x":293,"y":15,"rotation":0},"I0w750;0w51":{"name":"Battery","type":"FRAME","x":43,"y":2,"rotation":0},"I0w750;0w55":{"name":"Wifi","type":"FRAME","x":20,"y":1,"rotation":0},"I0w750;0w60":{"name":"Cellular Connection","type":"FRAME","x":0,"y":2,"rotation":0},"I0w750;0w66":{"name":"Time","type":"FRAME","x":21,"y":8,"rotation":0}}},"0w681":{"id":"0w681","name":"Search-keyboard--overlay-","clickableChildren":{"0w1173":{"name":"Keyboard","destination":"0w725","x":0,"y":0,"w":375,"h":291,"rotation":0,"type":"FRAME"},"0w1175":{"name":"Home Indicator","type":"FRAME","x":0,"y":257,"rotation":0},"0w1178":{"name":"Dictation","type":"FRAME","x":328,"y":239,"rotation":0},"0w1186":{"name":"Emoji","type":"FRAME","x":26,"y":237,"rotation":0},"0w1194":{"name":"Return","type":"FRAME","x":285,"y":170,"rotation":0},"0w1197":{"name":"Spacebar","type":"FRAME","x":96,"y":170,"rotation":0},"0w1200":{"name":"Lowercase","type":"FRAME","x":0,"y":0,"rotation":0},"0w1202":{"name":"123","type":"FRAME","x":3,"y":170,"rotation":0},"0w1205":{"name":"Backspace","type":"FRAME","x":330,"y":116,"rotation":0},"0w1212":{"name":"Shift","type":"FRAME","x":3,"y":116,"rotation":0},"0w1218":{"name":"Alphabet","type":"FRAME","x":285,"y":116,"rotation":0},"0w1221":{"name":"Alphabet","type":"FRAME","x":247,"y":116,"rotation":0},"0w1224":{"name":"Alphabet","type":"FRAME","x":210,"y":116,"rotation":0},"0w1227":{"name":"Alphabet","type":"FRAME","x":172,"y":116,"rotation":0},"0w1230":{"name":"Alphabet","type":"FRAME","x":134,"y":116,"rotation":0},"0w1233":{"name":"Alphabet","type":"FRAME","x":97,"y":116,"rotation":0},"0w1236":{"name":"Alphabet","type":"FRAME","x":59,"y":116,"rotation":0},"0w1239":{"name":"Alphabet","type":"FRAME","x":322,"y":62,"rotation":0},"0w1242":{"name":"Alphabet","type":"FRAME","x":284,"y":62,"rotation":0},"0w1245":{"name":"Alphabet","type":"FRAME","x":247,"y":62,"rotation":0},"0w1248":{"name":"Alphabet","type":"FRAME","x":209,"y":62,"rotation":0},"0w1251":{"name":"Alphabet","type":"FRAME","x":172,"y":62,"rotation":0},"0w1254":{"name":"Alphabet","type":"FRAME","x":134,"y":62,"rotation":0},"0w1257":{"name":"Alphabet","type":"FRAME","x":97,"y":62,"rotation":0},"0w1260":{"name":"Alphabet","type":"FRAME","x":59,"y":62,"rotation":0},"0w1263":{"name":"Alphabet","type":"FRAME","x":22,"y":62,"rotation":0},"0w1266":{"name":"Alphabet","type":"FRAME","x":341,"y":8,"rotation":0},"0w1269":{"name":"Alphabet","type":"FRAME","x":303,"y":8,"rotation":0},"0w1272":{"name":"Alphabet","type":"FRAME","x":266,"y":8,"rotation":0},"0w1275":{"name":"Alphabet","type":"FRAME","x":228,"y":8,"rotation":0},"0w1278":{"name":"Alphabet","type":"FRAME","x":191,"y":8,"rotation":0},"0w1281":{"name":"Alphabet","type":"FRAME","x":153,"y":8,"rotation":0},"0w1284":{"name":"Alphabet","type":"FRAME","x":116,"y":8,"rotation":0},"0w1287":{"name":"Alphabet","type":"FRAME","x":78,"y":8,"rotation":0},"0w1290":{"name":"Alphabet","type":"FRAME","x":41,"y":8,"rotation":0},"0w1293":{"name":"Alphabet","type":"FRAME","x":3,"y":8,"rotation":0}}},"0w725":{"id":"0w725","name":"Search-results","clickableChildren":{"0w744":{"name":"Button","destination":"0w745","x":16,"y":882,"w":343,"h":52,"rotation":0},"I0w751;0w49":{"name":"Connections","type":"FRAME","x":293,"y":15,"rotation":0},"I0w751;0w51":{"name":"Battery","type":"FRAME","x":43,"y":2,"rotation":0},"I0w751;0w55":{"name":"Wifi","type":"FRAME","x":20,"y":1,"rotation":0},"I0w751;0w60":{"name":"Cellular Connection","type":"FRAME","x":0,"y":2,"rotation":0},"I0w751;0w66":{"name":"Time","type":"FRAME","x":21,"y":8,"rotation":0},"I0w746;0w588":{"name":"Background","type":"FRAME","x":0,"y":0,"rotation":0},"I0w746;0w594":{"name":"40 / Toolbar / new","type":"FRAME","x":11,"y":9,"rotation":0},"I0w746;0w660":{"name":"40 / Toolbar / search","destination":"0w90","x":82,"y":9,"w":40,"h":40,"rotation":0,"parent":"I0w746;0w588","type":"FRAME"},"I0w746;0w671":{"name":"40 / Toolbar / new","type":"FRAME","x":153,"y":9,"rotation":0},"I0w746;0w626":{"name":"40 / Toolbar / Comment","destination":"0w627","x":254,"y":9,"w":40,"h":40,"rotation":0,"parent":"I0w746;0w588","type":"FRAME"},"I0w746;0w666":{"name":"40 / Toolbar / bell","destination":"0w88","x":324,"y":9,"w":40,"h":40,"rotation":0,"parent":"I0w746;0w588","type":"FRAME"}}},"0w745":{"id":"0w745","name":"Search-results--preserve-scroll-position-","clickableChildren":{"I0w889;0w49":{"name":"Connections","type":"FRAME","x":293,"y":15,"rotation":0},"I0w889;0w51":{"name":"Battery","type":"FRAME","x":43,"y":2,"rotation":0},"I0w889;0w55":{"name":"Wifi","type":"FRAME","x":20,"y":1,"rotation":0},"I0w889;0w60":{"name":"Cellular Connection","type":"FRAME","x":0,"y":2,"rotation":0},"I0w889;0w66":{"name":"Time","type":"FRAME","x":21,"y":8,"rotation":0},"I0w888;0w588":{"name":"Background","type":"FRAME","x":0,"y":0,"rotation":0},"I0w888;0w594":{"name":"40 / Toolbar / new","type":"FRAME","x":11,"y":9,"rotation":0},"I0w888;0w660":{"name":"40 / Toolbar / search","destination":"0w90","x":82,"y":9,"w":40,"h":40,"rotation":0,"parent":"I0w888;0w588","type":"FRAME"},"I0w888;0w671":{"name":"40 / Toolbar / new","type":"FRAME","x":153,"y":9,"rotation":0},"I0w888;0w626":{"name":"40 / Toolbar / Comment","destination":"0w627","x":254,"y":9,"w":40,"h":40,"rotation":0,"parent":"I0w888;0w588","type":"FRAME"},"I0w888;0w666":{"name":"40 / Toolbar / bell","destination":"0w88","x":324,"y":9,"w":40,"h":40,"rotation":0,"parent":"I0w888;0w588","type":"FRAME"}}},"0w627":{"id":"0w627","name":"Chats","clickableChildren":{"0w825":{"name":"Navigation Bar","type":"FRAME","x":0,"y":0,"rotation":0},"0w826":{"name":"Background","type":"FRAME","x":0,"y":0,"rotation":0},"0w828":{"name":"Title","type":"FRAME","x":100,"y":44,"rotation":0},"0w835":{"name":"Group","destination":"0w94","x":16,"y":104,"w":343,"h":64,"rotation":0},"I0w784;0w588":{"name":"Background","type":"FRAME","x":0,"y":0,"rotation":0},"I0w784;0w594":{"name":"40 / Toolbar / new","type":"FRAME","x":11,"y":9,"rotation":0},"I0w784;0w660":{"name":"40 / Toolbar / search","destination":"0w90","x":82,"y":9,"w":40,"h":40,"rotation":0,"parent":"I0w784;0w588","type":"FRAME"},"I0w784;0w671":{"name":"40 / Toolbar / new","type":"FRAME","x":153,"y":9,"rotation":0},"I0w784;0w626":{"name":"40 / Toolbar / Comment","destination":"0w627","x":254,"y":9,"w":40,"h":40,"rotation":0,"parent":"I0w784;0w588","type":"FRAME"},"I0w784;0w666":{"name":"40 / Toolbar / bell","destination":"0w88","x":324,"y":9,"w":40,"h":40,"rotation":0,"parent":"I0w784;0w588","type":"FRAME"},"I0w783;0w49":{"name":"Connections","type":"FRAME","x":293,"y":15,"rotation":0},"I0w783;0w51":{"name":"Battery","type":"FRAME","x":43,"y":2,"rotation":0},"I0w783;0w55":{"name":"Wifi","type":"FRAME","x":20,"y":1,"rotation":0},"I0w783;0w60":{"name":"Cellular Connection","type":"FRAME","x":0,"y":2,"rotation":0},"I0w783;0w66":{"name":"Time","type":"FRAME","x":21,"y":8,"rotation":0}}},"0w94":{"id":"0w94","name":"Individual-chat","clickableChildren":{"0w792":{"name":"Navigation Bar","type":"FRAME","x":0,"y":0,"rotation":0},"0w814":{"name":"Background","type":"FRAME","x":0,"y":0,"rotation":0},"0w816":{"name":"Title","type":"FRAME","x":100,"y":44,"rotation":0},"0w818":{"name":"Left Action","type":"FRAME","x":0,"y":44,"rotation":0},"I0w785;0w588":{"name":"Background","type":"FRAME","x":0,"y":0,"rotation":0},"I0w785;0w594":{"name":"40 / Toolbar / new","type":"FRAME","x":11,"y":9,"rotation":0},"I0w785;0w660":{"name":"40 / Toolbar / search","destination":"0w90","x":82,"y":9,"w":40,"h":40,"rotation":0,"parent":"I0w785;0w588","type":"FRAME"},"I0w785;0w671":{"name":"40 / Toolbar / new","type":"FRAME","x":153,"y":9,"rotation":0},"I0w785;0w626":{"name":"40 / Toolbar / Comment","destination":"0w627","x":254,"y":9,"w":40,"h":40,"rotation":0,"parent":"I0w785;0w588","type":"FRAME"},"I0w785;0w666":{"name":"40 / Toolbar / bell","destination":"0w88","x":324,"y":9,"w":40,"h":40,"rotation":0,"parent":"I0w785;0w588","type":"FRAME"},"I0w780;0w49":{"name":"Connections","type":"FRAME","x":293,"y":15,"rotation":0},"I0w780;0w51":{"name":"Battery","type":"FRAME","x":43,"y":2,"rotation":0},"I0w780;0w55":{"name":"Wifi","type":"FRAME","x":20,"y":1,"rotation":0},"I0w780;0w60":{"name":"Cellular Connection","type":"FRAME","x":0,"y":2,"rotation":0},"I0w780;0w66":{"name":"Time","type":"FRAME","x":21,"y":8,"rotation":0}}},"0w88":{"id":"0w88","name":"Profile","clickableChildren":{"I0w778;0w588":{"name":"Background","type":"FRAME","x":0,"y":0,"rotation":0},"I0w778;0w594":{"name":"40 / Toolbar / new","type":"FRAME","x":11,"y":9,"rotation":0},"I0w778;0w660":{"name":"40 / Toolbar / search","destination":"0w90","x":82,"y":9,"w":40,"h":40,"rotation":0,"parent":"I0w778;0w588","type":"FRAME"},"I0w778;0w671":{"name":"40 / Toolbar / new","type":"FRAME","x":153,"y":9,"rotation":0},"I0w778;0w626":{"name":"40 / Toolbar / Comment","destination":"0w627","x":254,"y":9,"w":40,"h":40,"rotation":0,"parent":"I0w778;0w588","type":"FRAME"},"I0w778;0w666":{"name":"40 / Toolbar / bell","destination":"0w88","x":324,"y":9,"w":40,"h":40,"rotation":0,"parent":"I0w778;0w588","type":"FRAME"},"I0w768;0w49":{"name":"Connections","type":"FRAME","x":293,"y":15,"rotation":0},"I0w768;0w51":{"name":"Battery","type":"FRAME","x":43,"y":2,"rotation":0},"I0w768;0w55":{"name":"Wifi","type":"FRAME","x":20,"y":1,"rotation":0},"I0w768;0w60":{"name":"Cellular Connection","type":"FRAME","x":0,"y":2,"rotation":0},"I0w768;0w66":{"name":"Time","type":"FRAME","x":21,"y":8,"rotation":0}}},"0w47":{"id":"0w47","name":"Register--step-1-","clickableChildren":{"0w76":{"name":"Button","destination":"0w77","x":16,"y":312,"w":343,"h":52,"rotation":0},"0w128":{"name":"Keyboard","type":"FRAME","x":0,"y":521,"rotation":0},"0w203":{"name":"Home Indicator","type":"FRAME","x":0,"y":257,"rotation":0},"0w206":{"name":"Dictation","type":"FRAME","x":328,"y":239,"rotation":0},"0w214":{"name":"Emoji","type":"FRAME","x":26,"y":237,"rotation":0},"0w222":{"name":"Return","type":"FRAME","x":285,"y":170,"rotation":0},"0w225":{"name":"Spacebar","type":"FRAME","x":96,"y":170,"rotation":0},"0w228":{"name":"Lowercase","type":"FRAME","x":0,"y":0,"rotation":0},"0w230":{"name":"123","type":"FRAME","x":3,"y":170,"rotation":0},"0w233":{"name":"Backspace","type":"FRAME","x":330,"y":116,"rotation":0},"0w240":{"name":"Shift","type":"FRAME","x":3,"y":116,"rotation":0},"0w246":{"name":"Alphabet","type":"FRAME","x":285,"y":116,"rotation":0},"0w249":{"name":"Alphabet","type":"FRAME","x":247,"y":116,"rotation":0},"0w252":{"name":"Alphabet","type":"FRAME","x":210,"y":116,"rotation":0},"0w255":{"name":"Alphabet","type":"FRAME","x":172,"y":116,"rotation":0},"0w258":{"name":"Alphabet","type":"FRAME","x":134,"y":116,"rotation":0},"0w261":{"name":"Alphabet","type":"FRAME","x":97,"y":116,"rotation":0},"0w264":{"name":"Alphabet","type":"FRAME","x":59,"y":116,"rotation":0},"0w267":{"name":"Alphabet","type":"FRAME","x":322,"y":62,"rotation":0},"0w270":{"name":"Alphabet","type":"FRAME","x":284,"y":62,"rotation":0},"0w273":{"name":"Alphabet","type":"FRAME","x":247,"y":62,"rotation":0},"0w276":{"name":"Alphabet","type":"FRAME","x":209,"y":62,"rotation":0},"0w279":{"name":"Alphabet","type":"FRAME","x":172,"y":62,"rotation":0},"0w282":{"name":"Alphabet","type":"FRAME","x":134,"y":62,"rotation":0},"0w285":{"name":"Alphabet","type":"FRAME","x":97,"y":62,"rotation":0},"0w288":{"name":"Alphabet","type":"FRAME","x":59,"y":62,"rotation":0},"0w291":{"name":"Alphabet","type":"FRAME","x":22,"y":62,"rotation":0},"0w294":{"name":"Alphabet","type":"FRAME","x":341,"y":8,"rotation":0},"0w297":{"name":"Alphabet","type":"FRAME","x":303,"y":8,"rotation":0},"0w300":{"name":"Alphabet","type":"FRAME","x":266,"y":8,"rotation":0},"0w303":{"name":"Alphabet","type":"FRAME","x":228,"y":8,"rotation":0},"0w306":{"name":"Alphabet","type":"FRAME","x":191,"y":8,"rotation":0},"0w309":{"name":"Alphabet","type":"FRAME","x":153,"y":8,"rotation":0},"0w312":{"name":"Alphabet","type":"FRAME","x":116,"y":8,"rotation":0},"0w315":{"name":"Alphabet","type":"FRAME","x":78,"y":8,"rotation":0},"0w318":{"name":"Alphabet","type":"FRAME","x":41,"y":8,"rotation":0},"0w321":{"name":"Alphabet","type":"FRAME","x":3,"y":8,"rotation":0},"0w763":{"name":"Union","destination":"0w2","x":16,"y":60,"w":12.207107543945312,"h":11.353558540344238,"rotation":3.1805546814635168e-15},"0w49":{"name":"Connections","type":"FRAME","x":293,"y":15,"rotation":0},"0w51":{"name":"Battery","type":"FRAME","x":43,"y":2,"rotation":0},"0w55":{"name":"Wifi","type":"FRAME","x":20,"y":1,"rotation":0},"0w60":{"name":"Cellular Connection","type":"FRAME","x":0,"y":2,"rotation":0},"0w66":{"name":"Time","type":"FRAME","x":21,"y":8,"rotation":0}}},"0w77":{"id":"0w77","name":"Register--step-2-","clickableChildren":{"0w456":{"name":"Button","destination":"0w78","x":16,"y":244,"w":343,"h":52,"rotation":0},"0w457":{"name":"Keyboard","type":"FRAME","x":0,"y":521,"rotation":0},"0w459":{"name":"Home Indicator","type":"FRAME","x":0,"y":257,"rotation":0},"0w462":{"name":"Dictation","type":"FRAME","x":328,"y":239,"rotation":0},"0w470":{"name":"Emoji","type":"FRAME","x":26,"y":237,"rotation":0},"0w478":{"name":"Return","type":"FRAME","x":285,"y":170,"rotation":0},"0w481":{"name":"Spacebar","type":"FRAME","x":96,"y":170,"rotation":0},"0w484":{"name":"Lowercase","type":"FRAME","x":0,"y":0,"rotation":0},"0w486":{"name":"123","type":"FRAME","x":3,"y":170,"rotation":0},"0w489":{"name":"Backspace","type":"FRAME","x":330,"y":116,"rotation":0},"0w496":{"name":"Shift","type":"FRAME","x":3,"y":116,"rotation":0},"0w502":{"name":"Alphabet","type":"FRAME","x":285,"y":116,"rotation":0},"0w505":{"name":"Alphabet","type":"FRAME","x":247,"y":116,"rotation":0},"0w508":{"name":"Alphabet","type":"FRAME","x":210,"y":116,"rotation":0},"0w511":{"name":"Alphabet","type":"FRAME","x":172,"y":116,"rotation":0},"0w514":{"name":"Alphabet","type":"FRAME","x":134,"y":116,"rotation":0},"0w517":{"name":"Alphabet","type":"FRAME","x":97,"y":116,"rotation":0},"0w520":{"name":"Alphabet","type":"FRAME","x":59,"y":116,"rotation":0},"0w523":{"name":"Alphabet","type":"FRAME","x":322,"y":62,"rotation":0},"0w526":{"name":"Alphabet","type":"FRAME","x":284,"y":62,"rotation":0},"0w529":{"name":"Alphabet","type":"FRAME","x":247,"y":62,"rotation":0},"0w532":{"name":"Alphabet","type":"FRAME","x":209,"y":62,"rotation":0},"0w535":{"name":"Alphabet","type":"FRAME","x":172,"y":62,"rotation":0},"0w538":{"name":"Alphabet","type":"FRAME","x":134,"y":62,"rotation":0},"0w541":{"name":"Alphabet","type":"FRAME","x":97,"y":62,"rotation":0},"0w544":{"name":"Alphabet","type":"FRAME","x":59,"y":62,"rotation":0},"0w547":{"name":"Alphabet","type":"FRAME","x":22,"y":62,"rotation":0},"0w550":{"name":"Alphabet","type":"FRAME","x":341,"y":8,"rotation":0},"0w553":{"name":"Alphabet","type":"FRAME","x":303,"y":8,"rotation":0},"0w556":{"name":"Alphabet","type":"FRAME","x":266,"y":8,"rotation":0},"0w559":{"name":"Alphabet","type":"FRAME","x":228,"y":8,"rotation":0},"0w562":{"name":"Alphabet","type":"FRAME","x":191,"y":8,"rotation":0},"0w565":{"name":"Alphabet","type":"FRAME","x":153,"y":8,"rotation":0},"0w568":{"name":"Alphabet","type":"FRAME","x":116,"y":8,"rotation":0},"0w571":{"name":"Alphabet","type":"FRAME","x":78,"y":8,"rotation":0},"0w574":{"name":"Alphabet","type":"FRAME","x":41,"y":8,"rotation":0},"0w577":{"name":"Alphabet","type":"FRAME","x":3,"y":8,"rotation":0},"0w765":{"name":"Union","destination":"0w47","x":16,"y":60,"w":12.207107543945312,"h":11.353558540344238,"rotation":3.1805546814635168e-15},"I0w891;0w49":{"name":"Connections","type":"FRAME","x":293,"y":15,"rotation":0},"I0w891;0w51":{"name":"Battery","type":"FRAME","x":43,"y":2,"rotation":0},"I0w891;0w55":{"name":"Wifi","type":"FRAME","x":20,"y":1,"rotation":0},"I0w891;0w60":{"name":"Cellular Connection","type":"FRAME","x":0,"y":2,"rotation":0},"I0w891;0w66":{"name":"Time","type":"FRAME","x":21,"y":8,"rotation":0}}}};
+      const startFrameId = {"start":"0w2"};
+      const retina = true;
+      window.onload = function () {
+        // name is wrong, need to add the index!
+        let oneX = "images/" + frames[startFrameId["start"]].id + "-" + frames[startFrameId["start"]].name + ".png";
+        document.getElementById("content").src = oneX;
+        document.getElementById("content").className = frames[startFrameId["start"]].id;
+        if (retina === true) {
+          let twoX = "images/" + frames[startFrameId["start"]].id + "-" + frames[startFrameId["start"]].name + "@2x.png 2x";
+          document.getElementById("content").srcset = oneX + " 1x, " + twoX;
+        }
+        renderClickableAreas();
+      };
+
+      // Hide helper after 5 seconds
+      window.addEventListener("load", function () {
+        document.getElementById("helper").classList.remove("hidden");
+        setTimeout(function () {
+          document.getElementById("helper").className = 'hidden';
+        }, 5000);
+      });
+
+      // listen to keydown events
+      window.addEventListener("keydown", event => {
+        // R to go back to start
+        if (event.isComposing || KeyboardEvent.keyCode === 82) {
+          let oneX = "images/" + frames[startFrameId["start"]].id + "-" + frames[startFrameId["start"]].name + ".png";
+          document.getElementById("content").src = oneX;
+          document.getElementById("content").className = frames[startFrameId["start"]].id;
+          if (retina === true) {
+            let twoX = "images/" + frames[startFrameId["start"]].id + "-" + frames[startFrameId["start"]].name + "@2x.png 2x";
+            document.getElementById("content").srcset = oneX + " 1x, " + twoX;
+          }
+          document.documentElement.scrollTop = 0;
+        }
+        // H to hide the interface
+        if (event.isComposing || KeyboardEvent.keyCode === 72) {
+          if (document.getElementById("helper").className !== 'hidden') {
+            document.getElementById("helper").className = 'hidden';
+          } else {
+            document.getElementById("helper").className = '';
+          }
+        }
+      });
+      
+      function renderClickableAreas() {
+        let clickableDiv = document.getElementById("clickables");
+        if (clickableDiv.children.length > 0) {
+          clickableDiv.innerHTML = '';
+        }
+        
+        let currentFrame = document.getElementById("content").className;
+        for (let i = 0; i < Object.keys(frames[currentFrame].clickableChildren).length; i++) {
+          var newContent = document.createElement('div');
+          let layerName = Object.keys(frames[currentFrame].clickableChildren)[i];
+          let layer = frames[currentFrame].clickableChildren[layerName];
+          
+          if (layer.destination) {
+          newContent.style.position = 'absolute';
+          newContent.className = layerName;
+          newContent.style.width = layer.w + 'px';
+          newContent.style.height = layer.h + 'px';
+          newContent.style.top = layer.y + 'px';
+          newContent.style.left = layer.x + 'px';
+          newContent.style.cursor = 'pointer';
+          if (layer.parent && frames[currentFrame].clickableChildren[layer.parent]) {
+            let combinedY = layer.y + frames[currentFrame].clickableChildren[layer.parent].y; 
+            let combinedX = layer.x + frames[currentFrame].clickableChildren[layer.parent].x; 
+          newContent.style.top = combinedY + 'px';
+          newContent.style.left = combinedX + 'px';     
+          }
+          newContent.setAttribute("onclick", "navigateTo('"+layer.destination+"')");
+          
+          clickableDiv.appendChild(newContent);
+          }
+        }
+      }
+
+    function navigateTo(newFrameId) {
+      let oneX = "images/" + newFrameId + "-" + frames[newFrameId].name + ".png";
+      document.getElementById("content").className = newFrameId;
+      document.getElementById("content").src = oneX;
+      document.documentElement.scrollTop = 0;
+      if (retina === true) {
+        let twoX = "images/" + newFrameId + "-" + frames[newFrameId].name + "@2x.png 2x";
+        document.getElementById("content").srcset = oneX + " 1x, " + twoX;
+      }
+      renderClickableAreas();
+    }
+    </script>
+</head>
+<body>
+<div id="helper" class="hidden">
+    <ul>
+        <li>
+            <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.00318 2.52632C8.76035 2.52632 10.1864 3.94105 10.1864 5.68421C10.1864 6.09474 10.1037 6.48 9.95725 6.84L11.8163 8.68421C12.7776 7.88842 13.5352 6.85895 14 5.68421C12.8986 2.91158 10.1801 0.947368 6.99682 0.947368C6.1055 0.947368 5.25239 1.10526 4.46294 1.38947L5.83811 2.75368C6.201 2.60842 6.58936 2.52632 7.00318 2.52632ZM0.636653 0.802105L2.08822 2.24211L2.38108 2.53263C1.32424 3.34737 0.496589 4.43368 0 5.68421C1.10141 8.45684 3.81992 10.4211 7.00318 10.4211C7.99 10.4211 8.93224 10.2316 9.79172 9.89053L10.0591 10.1558L11.9245 12L12.7331 11.1979L1.4452 0L0.636653 0.802105ZM4.15734 4.29474L5.14416 5.27368C5.11232 5.40632 5.09322 5.54526 5.09322 5.68421C5.09322 6.73263 5.94634 7.57895 7.00318 7.57895C7.14325 7.57895 7.28331 7.56 7.41701 7.52842L8.40382 8.50737C7.97726 8.71579 7.50614 8.8421 7.00318 8.8421C5.24602 8.8421 3.81992 7.42737 3.81992 5.68421C3.81992 5.18526 3.94725 4.71789 4.15734 4.29474V4.29474ZM6.90132 3.80211L8.90678 5.79158L8.91951 5.69053C8.91951 4.64211 8.06639 3.79579 7.00955 3.79579L6.90132 3.80211Z"
+                      fill="white"/>
+            </svg>
+            Hide interface (H)
+        </li>
+        <li>
+            <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 5L5 1M1 5L5 9M1 5H12C13.1046 5 14 5.89543 14 7V11" stroke="white" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Restart (R)
+        </li>
+
+    </ul>
+</div>
+<div id="clickables"></div>
+<img id="content" src=""/>
+</body>
+</html>
