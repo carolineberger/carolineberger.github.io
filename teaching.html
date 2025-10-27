@@ -3,9 +3,42 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Caroline Berger - Teaching</title>
+    <title>Caroline Berger</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <script type="text/javascript" src="./main.js"></script>
+    <script>
+      function toggleCourseDetails() {
+        const details = document.getElementById("course-details");
+        const toggleText = document.getElementById("toggle-text");
+        const toggleIcon = document.getElementById("toggle-icon");
+
+        if (details.style.display === "none") {
+          details.style.display = "block";
+          toggleText.textContent = "Hide Details";
+          toggleIcon.textContent = "▲";
+        } else {
+          details.style.display = "none";
+          toggleText.textContent = "Show Details";
+          toggleIcon.textContent = "▼";
+        }
+      }
+
+      function toggleHCI() {
+        const details = document.getElementById("hci-details");
+        const toggleText = document.getElementById("toggle-hci-text");
+        const toggleIcon = document.getElementById("toggle-hci-icon");
+
+        if (details.style.display === "none") {
+          details.style.display = "block";
+          toggleText.textContent = "Hide Details";
+          toggleIcon.textContent = "▲";
+        } else {
+          details.style.display = "none";
+          toggleText.textContent = "Show Details";
+          toggleIcon.textContent = "▼";
+        }
+      }
+    </script>
   </head>
   <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -44,29 +77,90 @@
         </div>
       </nav>
 
-      <div class="container is-max-desktop">
-        <div class="section">
-          <h1 class="title">Teaching</h1>
-          <p class="subtitle">Resources and materials for my courses</p>
-        </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <div class="tile is-child box">
+            <h1 class="title">
+                Teaching    
+            </h1>
+            <p class="subtitle">Resources and supplementary materials for my courses</p>
+            <hr>
+            
+            <h2 class="title is-4">Courses</h2>
+            
+            <div class="box">
+              <h3 class="title is-5">Experimental System Development</h3>
+              <p>This course focuses on developing experimental systems through human-centered design methodologies.</p>
+              
+              <div class="has-text-right">
+                <button class="button is-small is-outlined" onclick="toggleCourseDetails()">
+                  <span id="toggle-text">Show Details</span>
+                  <span class="icon" id="toggle-icon">▼</span>
+                </button>
+              </div>
+              
+              <div class="content" id="course-details" style="display: none">
+                <h4 class="title is-6">Course Content</h4>
+                <p>Techniques for fieldwork, construction of scenarios, prototypes and user-cooperation in connection with analysis, design and evaluation. Working methods for planning of process and product. Conducting the early parts of a project emphasising iteration and user involvement. Reflection on process and product. Different types of project and process models and concepts for understanding the models.</p>
+                
+                <h4 class="title is-6">Objectives of the course</h4>
+                <p>After the course the participants will have a foundation for understanding systems development, especially experimental systems development with user involvement, and practical experience with a number of techniques and methods for experimental systems development. After the course the participants will have practical experience with conducting an experimental project with user participation and have a foundation for understanding different types of system development processes.</p>
+                <p>The working method of the course will also train the participants ability to seek information on their own, to plan and conduct projects, to convey and communicate academic issues and to read and understand scientific papers.</p>
+                
+                <h4 class="title is-6">Learning outcomes</h4>
+                <p>At the end of the course the participants should be able to:</p>
+                <ul>
+                  <li>describe and use techniques for construction of scenarios, construction and evaluation of prototypes and other things in projects with a high degree of user-cooperation,</li>
+                  <li>formulate and analyse a project with a high degree of user involvement,</li>
+                  <li>plan, conduct and evaluate the early stages of a system development project with user involvement,</li>
+                  <li>analyze (parts of) an organization for the purpose of development of IT-support,</li>
+                  <li>discuss and put into perspective the chosen solutions, problems that occur on the way, and the chosen strategy as a whole</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="box">
+              <h3 class="title is-5">Human Computer Interaction</h3>
+              <p>This course introduces students to the fundamentals of Human-Computer Interaction (HCI) and web development.</p>
+              
+              <div class="has-text-right">
+                <button class="button is-small is-outlined" onclick="toggleHCI()">
+                  <span id="toggle-hci-text">Show Details</span>
+                  <span class="icon" id="toggle-hci-icon">▼</span>
+                </button>
+              </div>
+              
+              <div class="content" id="hci-details" style="display: none">
+                <h4 class="title is-6">Course Content</h4>
+                <p>Lectures and practical work are organised in blocks of 2-3 weeks, each with a coursework assignment. The topics include:</p>
+                <ul>
+                  <li>Why is HCI important; human-centred design; modern UIs and their historical context</li>
+                  <li>Human information processing; memory and attention; vision and perception; motor abilities; models of human performance</li>
+                  <li>Mental models, conceptual models, metaphors; types of error; design principles and guidelines</li>
+                  <li>Input and output; pointing devices; direct manipulation; established and emerging interaction styles</li>
+                  <li>Usability evaluation; types of studies and types of usability measurement; collection, analysis and presentation of data</li>
+                </ul>
+                
+                <h4 class="title is-6">Objectives of the course</h4>
+                <p>The course aims to introduce students to the fundamentals of Human-Computer Interaction (HCI). The objective is for students to attain a sound understanding of HCI concerns, that is of relevance to development of any form of interactive system. This includes an understanding of human abilities and characteristics; of design principles and guidelines; and of interaction styles and input/output devices. Students will learn how usability can be measured, and practice analysis, design, implementation and evaluation of user interfaces.</p>
+                
+                <h4 class="title is-6">Learning outcomes and competences</h4>
+                <p>At the end of the course, the participants will be able to:</p>
+                <ul>
+                  <li>Outline what the field of Human–Computer Interaction (HCI) is concerned with.</li>
+                  <li>Describe characteristics of human cognition and perception, and relate them to design principles for interactive systems.</li>
+                  <li>Analyse user interfaces and motivate user interface designs using HCI models and theories.</li>
+                  <li>Apply HCI principles and guidelines in design and implementation of user interfaces.</li>
+                  <li>Describe, select and apply appropriate methods for evaluation of usability and user experience.</li>
+                </ul>
+              </div>
+            </div>
 
-        <!-- Current Courses -->
-        <div class="section">
-          <h2 class="title is-4">Current Courses</h2>
-          <div class="box">
-            <h3 class="title is-5">Experimental System Development</h3>
-            <p class="subtitle is-6">March 1, 2024</p>
-            <p>This course focuses on developing experimental systems through user-centered design methodologies.</p>
-          </div>
-        </div>
-
-        <!-- Course Materials -->
-        <div class="section">
-          <h2 class="title is-4">Course Materials</h2>
-          
-          <div class="box">
-            <h3 class="title is-5">Problem Definition & Analysis</h3>
-            <div class="content">
+            <hr>
+            <h2 class="title is-4">Course Materials</h2>
+            
+            <div class="box">
+              <h3 class="title is-5">Problem Definition & Analysis</h3>
               <h4 class="title is-6">Writing Problem Statements</h4>
               <ul>
                 <li>
@@ -77,51 +171,40 @@
                 </li>
               </ul>
             </div>
-          </div>
 
-          <div class="box">
-            <h3 class="title is-5">Scenario Development</h3>
-            <div class="content">
+            <div class="box">
+              <h3 class="title is-5">Scenario Development</h3>
               <ul>
                 <li>Create visual scenarios using <a href="https://www.tldraw.com/" target="_blank">Tldraw</a></li>
                 <li>Explain situations as if to someone with no context - be specific and paint a clear picture</li>
                 <li>Act out scenarios by taking on different user roles</li>
               </ul>
             </div>
-          </div>
 
-          <div class="box">
-            <h3 class="title is-5">Externalization Techniques</h3>
-            <div class="content">
+            <div class="box">
+              <h3 class="title is-5">Externalization Techniques</h3>
               <p>To develop a <a href="https://en.wikipedia.org/wiki/Common_operational_picture" target="_blank">common operating picture</a>, drawing and writing can be helpful. For inspiration, look at Karen Holtzblatt's books, but trust your instincts and iterate on your first attempts.</p>
             </div>
-          </div>
 
-          <div class="box">
-            <h3 class="title is-5">User Stories</h3>
-            <div class="content">
+            <div class="box">
+              <h3 class="title is-5">User Stories</h3>
               <p><strong>Format:</strong> "As a [persona], I [want to], [so that]."</p>
               <p>Consider your audience when writing user stories - some will be more specific than others depending on whether you're delivering to developers or using them as part of a design process.</p>
               <p>See <a href="https://www.atlassian.com/agile/project-management/user-stories" target="_blank">Atlassian's approach to user stories</a></p>
             </div>
-          </div>
 
-          <div class="box">
-            <h3 class="title is-5">Making Education Work for You</h3>
-            <div class="content">
+            <div class="box">
+              <h3 class="title is-5">Making Education Work for You</h3>
               <p>Think about what you aim to get out of your time in university. What can you do to adapt how you spend your time to the goals you want to achieve?</p>
               <p><strong>Personal example:</strong> I wanted to enjoy university, so I found the tasks I enjoyed (research) and tried to do more of them. I spent more time developing research-based skills.</p>
               <p>Maybe for you, you can use project time to grow confidence as a programmer, or improve communication skills through thoughtful hand-ins.</p>
             </div>
-          </div>
-        </div>
 
-        <!-- Research Resources -->
-        <div class="section">
-          <h2 class="title is-4">Research Resources</h2>
-          <div class="box">
-            <h3 class="title is-5">HCI & Research Methods</h3>
-            <div class="content">
+            <hr>
+            <h2 class="title is-4">Research Resources</h2>
+            
+            <div class="box">
+              <h3 class="title is-5">HCI & Research Methods</h3>
               <ul>
                 <li><a href="https://firefox-source-docs.mozilla.org/devtools-user/debugger/" target="_blank">Firefox Debugging Tools</a></li>
                 <li><a href="https://cs.mcgill.ca/~cberge48/hci/notebook/FormativeFeedback/FormativeFeedback.html" target="_blank">Heuristic Evaluation Guide</a> - From my bachelor's HCI class</li>
@@ -130,11 +213,9 @@
                 <li><a href="https://sites.education.miami.edu/statsu/2020/09/22/how-is-reliability-and-validity-realized-in-qualitative-research/" target="_blank">Reliability and Validity in Qualitative Research</a></li>
               </ul>
             </div>
-          </div>
 
-          <div class="box">
-            <h3 class="title is-5">Data Processing with Whisper AI</h3>
-            <div class="content">
+            <div class="box">
+              <h3 class="title is-5">Data Processing with Whisper AI</h3>
               <p>Research project data processing steps using <a href="https://github.com/openai/whisper" target="_blank">OpenAI Whisper</a>:</p>
               <ol>
                 <li>Check that participant has completed consent form if sent prior to the meeting</li>
@@ -151,8 +232,28 @@
             </div>
           </div>
         </div>
+        <div class="tile is-3 is-vertical is-parent">
+            <div class="tile is-child box">
+              <figure class="image is-317x381">
+                  <img src="./files/Caroline_Berger_Photo.jpeg">
+              </figure>
+              <p>
+                  Caroline Berger 
+                  </br>
+                  Department of Computer Science
+                  </br>
+                  Åbogade 34
+                  </br>
+                  8200 Aarhus N
+                  </br>
+                  Denmark
+                  </br>
+                  caroline.berger@cs.au.dk
+              </p>
+            </div>
+            
+          </div>
       </div>
 
   </body>
 </html>
-
