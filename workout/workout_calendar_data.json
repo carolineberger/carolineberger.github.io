@@ -1,0 +1,2194 @@
+{
+  "metadata": {
+    "total_workouts": 115,
+    "date_range": {
+      "start": "2025-01-25",
+      "end": "2025-11-15"
+    },
+    "generated": "2025-11-16 21:03:41"
+  },
+  "workouts_by_date": {
+    "2025-01-25": {
+      "date": "2025-01-25",
+      "year": 2025,
+      "month": 1,
+      "day": 25,
+      "weekday": 5,
+      "workout_count": 1,
+      "total_duration": 264.2,
+      "workouts": [
+        {
+          "type": "DownhillSkiing",
+          "category": "other",
+          "duration": 264.2,
+          "start_time": "17:18"
+        }
+      ],
+      "primary_category": "other"
+    },
+    "2025-06-30": {
+      "date": "2025-06-30",
+      "year": 2025,
+      "month": 6,
+      "day": 30,
+      "weekday": 0,
+      "workout_count": 1,
+      "total_duration": 59.9,
+      "workouts": [
+        {
+          "type": "CoreTraining",
+          "category": "other",
+          "duration": 59.92,
+          "start_time": "23:26"
+        }
+      ],
+      "primary_category": "other"
+    },
+    "2025-07-02": {
+      "date": "2025-07-02",
+      "year": 2025,
+      "month": 7,
+      "day": 2,
+      "weekday": 2,
+      "workout_count": 4,
+      "total_duration": 141.7,
+      "workouts": [
+        {
+          "type": "Tennis",
+          "category": "sports",
+          "duration": 36.65,
+          "start_time": "16:19"
+        },
+        {
+          "type": "Tennis",
+          "category": "sports",
+          "duration": 65.53,
+          "start_time": "16:56"
+        },
+        {
+          "type": "Tennis",
+          "category": "sports",
+          "duration": 3.63,
+          "start_time": "18:10"
+        },
+        {
+          "type": "HighIntensityIntervalTraining",
+          "category": "other",
+          "duration": 35.87,
+          "start_time": "19:35"
+        }
+      ],
+      "primary_category": "sports"
+    },
+    "2025-07-03": {
+      "date": "2025-07-03",
+      "year": 2025,
+      "month": 7,
+      "day": 3,
+      "weekday": 3,
+      "workout_count": 1,
+      "total_duration": 92.4,
+      "workouts": [
+        {
+          "type": "PaddleSports",
+          "category": "other",
+          "duration": 92.37,
+          "start_time": "19:24"
+        }
+      ],
+      "primary_category": "other"
+    },
+    "2025-07-05": {
+      "date": "2025-07-05",
+      "year": 2025,
+      "month": 7,
+      "day": 5,
+      "weekday": 5,
+      "workout_count": 1,
+      "total_duration": 36.4,
+      "workouts": [
+        {
+          "type": "Walking",
+          "category": "cardio",
+          "duration": 36.4,
+          "start_time": "01:46"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-07-06": {
+      "date": "2025-07-06",
+      "year": 2025,
+      "month": 7,
+      "day": 6,
+      "weekday": 6,
+      "workout_count": 1,
+      "total_duration": 106.3,
+      "workouts": [
+        {
+          "type": "Tennis",
+          "category": "sports",
+          "duration": 106.32,
+          "start_time": "19:07"
+        }
+      ],
+      "primary_category": "sports"
+    },
+    "2025-07-07": {
+      "date": "2025-07-07",
+      "year": 2025,
+      "month": 7,
+      "day": 7,
+      "weekday": 0,
+      "workout_count": 2,
+      "total_duration": 73.7,
+      "workouts": [
+        {
+          "type": "Walking",
+          "category": "cardio",
+          "duration": 28.62,
+          "start_time": "20:56"
+        },
+        {
+          "type": "Cycling",
+          "category": "cardio",
+          "duration": 45.07,
+          "start_time": "21:28"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-07-08": {
+      "date": "2025-07-08",
+      "year": 2025,
+      "month": 7,
+      "day": 8,
+      "weekday": 1,
+      "workout_count": 2,
+      "total_duration": 91.2,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 54.7,
+          "start_time": "12:11"
+        },
+        {
+          "type": "Walking",
+          "category": "cardio",
+          "duration": 36.52,
+          "start_time": "17:55"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-07-10": {
+      "date": "2025-07-10",
+      "year": 2025,
+      "month": 7,
+      "day": 10,
+      "weekday": 3,
+      "workout_count": 1,
+      "total_duration": 68,
+      "workouts": [
+        {
+          "type": "HighIntensityIntervalTraining",
+          "category": "other",
+          "duration": 68.03,
+          "start_time": "22:31"
+        }
+      ],
+      "primary_category": "other"
+    },
+    "2025-07-12": {
+      "date": "2025-07-12",
+      "year": 2025,
+      "month": 7,
+      "day": 12,
+      "weekday": 5,
+      "workout_count": 1,
+      "total_duration": 80.9,
+      "workouts": [
+        {
+          "type": "Tennis",
+          "category": "sports",
+          "duration": 80.87,
+          "start_time": "14:00"
+        }
+      ],
+      "primary_category": "sports"
+    },
+    "2025-07-13": {
+      "date": "2025-07-13",
+      "year": 2025,
+      "month": 7,
+      "day": 13,
+      "weekday": 6,
+      "workout_count": 1,
+      "total_duration": 120.6,
+      "workouts": [
+        {
+          "type": "SwimBikeRun",
+          "category": "other",
+          "duration": 120.62,
+          "start_time": "12:15"
+        }
+      ],
+      "primary_category": "other"
+    },
+    "2025-07-16": {
+      "date": "2025-07-16",
+      "year": 2025,
+      "month": 7,
+      "day": 16,
+      "weekday": 2,
+      "workout_count": 1,
+      "total_duration": 50.5,
+      "workouts": [
+        {
+          "type": "Walking",
+          "category": "cardio",
+          "duration": 50.5,
+          "start_time": "22:09"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-07-19": {
+      "date": "2025-07-19",
+      "year": 2025,
+      "month": 7,
+      "day": 19,
+      "weekday": 5,
+      "workout_count": 1,
+      "total_duration": 59.1,
+      "workouts": [
+        {
+          "type": "Tennis",
+          "category": "sports",
+          "duration": 59.1,
+          "start_time": "14:10"
+        }
+      ],
+      "primary_category": "sports"
+    },
+    "2025-07-20": {
+      "date": "2025-07-20",
+      "year": 2025,
+      "month": 7,
+      "day": 20,
+      "weekday": 6,
+      "workout_count": 1,
+      "total_duration": 11.6,
+      "workouts": [
+        {
+          "type": "Swimming",
+          "category": "cardio",
+          "duration": 11.55,
+          "start_time": "21:01"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-07-21": {
+      "date": "2025-07-21",
+      "year": 2025,
+      "month": 7,
+      "day": 21,
+      "weekday": 0,
+      "workout_count": 1,
+      "total_duration": 99.9,
+      "workouts": [
+        {
+          "type": "Walking",
+          "category": "cardio",
+          "duration": 99.88,
+          "start_time": "19:25"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-07-23": {
+      "date": "2025-07-23",
+      "year": 2025,
+      "month": 7,
+      "day": 23,
+      "weekday": 2,
+      "workout_count": 1,
+      "total_duration": 111,
+      "workouts": [
+        {
+          "type": "Walking",
+          "category": "cardio",
+          "duration": 110.97,
+          "start_time": "22:48"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-07-24": {
+      "date": "2025-07-24",
+      "year": 2025,
+      "month": 7,
+      "day": 24,
+      "weekday": 3,
+      "workout_count": 1,
+      "total_duration": 50.7,
+      "workouts": [
+        {
+          "type": "HighIntensityIntervalTraining",
+          "category": "other",
+          "duration": 50.73,
+          "start_time": "22:31"
+        }
+      ],
+      "primary_category": "other"
+    },
+    "2025-07-26": {
+      "date": "2025-07-26",
+      "year": 2025,
+      "month": 7,
+      "day": 26,
+      "weekday": 5,
+      "workout_count": 3,
+      "total_duration": 104.8,
+      "workouts": [
+        {
+          "type": "Walking",
+          "category": "cardio",
+          "duration": 32.07,
+          "start_time": "14:25"
+        },
+        {
+          "type": "HighIntensityIntervalTraining",
+          "category": "other",
+          "duration": 54.47,
+          "start_time": "15:04"
+        },
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 18.3,
+          "start_time": "16:16"
+        }
+      ],
+      "primary_category": "other"
+    },
+    "2025-07-27": {
+      "date": "2025-07-27",
+      "year": 2025,
+      "month": 7,
+      "day": 27,
+      "weekday": 6,
+      "workout_count": 1,
+      "total_duration": 136,
+      "workouts": [
+        {
+          "type": "Tennis",
+          "category": "sports",
+          "duration": 136,
+          "start_time": "16:18"
+        }
+      ],
+      "primary_category": "sports"
+    },
+    "2025-07-29": {
+      "date": "2025-07-29",
+      "year": 2025,
+      "month": 7,
+      "day": 29,
+      "weekday": 1,
+      "workout_count": 2,
+      "total_duration": 22.9,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 11.77,
+          "start_time": "21:25"
+        },
+        {
+          "type": "Swimming",
+          "category": "cardio",
+          "duration": 11.15,
+          "start_time": "21:47"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-07-30": {
+      "date": "2025-07-30",
+      "year": 2025,
+      "month": 7,
+      "day": 30,
+      "weekday": 2,
+      "workout_count": 1,
+      "total_duration": 46.8,
+      "workouts": [
+        {
+          "type": "Cycling",
+          "category": "cardio",
+          "duration": 46.75,
+          "start_time": "21:29"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-07-31": {
+      "date": "2025-07-31",
+      "year": 2025,
+      "month": 7,
+      "day": 31,
+      "weekday": 3,
+      "workout_count": 1,
+      "total_duration": 12.9,
+      "workouts": [
+        {
+          "type": "Walking",
+          "category": "cardio",
+          "duration": 12.95,
+          "start_time": "19:28"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-08-01": {
+      "date": "2025-08-01",
+      "year": 2025,
+      "month": 8,
+      "day": 1,
+      "weekday": 4,
+      "workout_count": 1,
+      "total_duration": 44.7,
+      "workouts": [
+        {
+          "type": "Boxing",
+          "category": "other",
+          "duration": 44.7,
+          "start_time": "16:56"
+        }
+      ],
+      "primary_category": "other"
+    },
+    "2025-08-02": {
+      "date": "2025-08-02",
+      "year": 2025,
+      "month": 8,
+      "day": 2,
+      "weekday": 5,
+      "workout_count": 1,
+      "total_duration": 59.1,
+      "workouts": [
+        {
+          "type": "HighIntensityIntervalTraining",
+          "category": "other",
+          "duration": 59.07,
+          "start_time": "15:03"
+        }
+      ],
+      "primary_category": "other"
+    },
+    "2025-08-03": {
+      "date": "2025-08-03",
+      "year": 2025,
+      "month": 8,
+      "day": 3,
+      "weekday": 6,
+      "workout_count": 1,
+      "total_duration": 46.1,
+      "workouts": [
+        {
+          "type": "CardioDance",
+          "category": "other",
+          "duration": 46.1,
+          "start_time": "03:12"
+        }
+      ],
+      "primary_category": "other"
+    },
+    "2025-08-04": {
+      "date": "2025-08-04",
+      "year": 2025,
+      "month": 8,
+      "day": 4,
+      "weekday": 0,
+      "workout_count": 1,
+      "total_duration": 62,
+      "workouts": [
+        {
+          "type": "Tennis",
+          "category": "sports",
+          "duration": 62,
+          "start_time": "17:26"
+        }
+      ],
+      "primary_category": "sports"
+    },
+    "2025-08-05": {
+      "date": "2025-08-05",
+      "year": 2025,
+      "month": 8,
+      "day": 5,
+      "weekday": 1,
+      "workout_count": 1,
+      "total_duration": 78.4,
+      "workouts": [
+        {
+          "type": "Walking",
+          "category": "cardio",
+          "duration": 78.42,
+          "start_time": "16:29"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-08-07": {
+      "date": "2025-08-07",
+      "year": 2025,
+      "month": 8,
+      "day": 7,
+      "weekday": 3,
+      "workout_count": 1,
+      "total_duration": 45.9,
+      "workouts": [
+        {
+          "type": "HighIntensityIntervalTraining",
+          "category": "other",
+          "duration": 45.87,
+          "start_time": "22:34"
+        }
+      ],
+      "primary_category": "other"
+    },
+    "2025-08-09": {
+      "date": "2025-08-09",
+      "year": 2025,
+      "month": 8,
+      "day": 9,
+      "weekday": 5,
+      "workout_count": 2,
+      "total_duration": 119.2,
+      "workouts": [
+        {
+          "type": "Pilates",
+          "category": "flexibility",
+          "duration": 27.73,
+          "start_time": "15:47"
+        },
+        {
+          "type": "Tennis",
+          "category": "sports",
+          "duration": 91.43,
+          "start_time": "20:57"
+        }
+      ],
+      "primary_category": "sports"
+    },
+    "2025-08-12": {
+      "date": "2025-08-12",
+      "year": 2025,
+      "month": 8,
+      "day": 12,
+      "weekday": 1,
+      "workout_count": 1,
+      "total_duration": 0.4,
+      "workouts": [
+        {
+          "type": "HighIntensityIntervalTraining",
+          "category": "other",
+          "duration": 0.38,
+          "start_time": "01:06"
+        }
+      ],
+      "primary_category": "other"
+    },
+    "2025-08-14": {
+      "date": "2025-08-14",
+      "year": 2025,
+      "month": 8,
+      "day": 14,
+      "weekday": 3,
+      "workout_count": 1,
+      "total_duration": 37.7,
+      "workouts": [
+        {
+          "type": "HighIntensityIntervalTraining",
+          "category": "other",
+          "duration": 37.68,
+          "start_time": "22:41"
+        }
+      ],
+      "primary_category": "other"
+    },
+    "2025-08-16": {
+      "date": "2025-08-16",
+      "year": 2025,
+      "month": 8,
+      "day": 16,
+      "weekday": 5,
+      "workout_count": 2,
+      "total_duration": 62.3,
+      "workouts": [
+        {
+          "type": "Tennis",
+          "category": "sports",
+          "duration": 51.93,
+          "start_time": "14:19"
+        },
+        {
+          "type": "Tennis",
+          "category": "sports",
+          "duration": 10.38,
+          "start_time": "15:16"
+        }
+      ],
+      "primary_category": "sports"
+    },
+    "2025-08-19": {
+      "date": "2025-08-19",
+      "year": 2025,
+      "month": 8,
+      "day": 19,
+      "weekday": 1,
+      "workout_count": 1,
+      "total_duration": 48.1,
+      "workouts": [
+        {
+          "type": "FunctionalStrengthTraining",
+          "category": "strength",
+          "duration": 48.12,
+          "start_time": "07:17"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-08-20": {
+      "date": "2025-08-20",
+      "year": 2025,
+      "month": 8,
+      "day": 20,
+      "weekday": 2,
+      "workout_count": 3,
+      "total_duration": 51,
+      "workouts": [
+        {
+          "type": "FunctionalStrengthTraining",
+          "category": "strength",
+          "duration": 38.53,
+          "start_time": "10:55"
+        },
+        {
+          "type": "StairClimbing",
+          "category": "cardio",
+          "duration": 7,
+          "start_time": "11:34"
+        },
+        {
+          "type": "FunctionalStrengthTraining",
+          "category": "strength",
+          "duration": 5.5,
+          "start_time": "11:41"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-08-23": {
+      "date": "2025-08-23",
+      "year": 2025,
+      "month": 8,
+      "day": 23,
+      "weekday": 5,
+      "workout_count": 1,
+      "total_duration": 46.9,
+      "workouts": [
+        {
+          "type": "HighIntensityIntervalTraining",
+          "category": "other",
+          "duration": 46.9,
+          "start_time": "09:17"
+        }
+      ],
+      "primary_category": "other"
+    },
+    "2025-08-25": {
+      "date": "2025-08-25",
+      "year": 2025,
+      "month": 8,
+      "day": 25,
+      "weekday": 0,
+      "workout_count": 2,
+      "total_duration": 35.2,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 11.07,
+          "start_time": "19:41"
+        },
+        {
+          "type": "FunctionalStrengthTraining",
+          "category": "strength",
+          "duration": 24.13,
+          "start_time": "19:52"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-08-26": {
+      "date": "2025-08-26",
+      "year": 2025,
+      "month": 8,
+      "day": 26,
+      "weekday": 1,
+      "workout_count": 2,
+      "total_duration": 40.9,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 15.65,
+          "start_time": "18:37"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 25.2,
+          "start_time": "19:00"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-08-27": {
+      "date": "2025-08-27",
+      "year": 2025,
+      "month": 8,
+      "day": 27,
+      "weekday": 2,
+      "workout_count": 1,
+      "total_duration": 50.6,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 50.65,
+          "start_time": "19:58"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-08-29": {
+      "date": "2025-08-29",
+      "year": 2025,
+      "month": 8,
+      "day": 29,
+      "weekday": 4,
+      "workout_count": 2,
+      "total_duration": 34,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 7.92,
+          "start_time": "10:45"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 26.07,
+          "start_time": "10:53"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-08-31": {
+      "date": "2025-08-31",
+      "year": 2025,
+      "month": 8,
+      "day": 31,
+      "weekday": 6,
+      "workout_count": 3,
+      "total_duration": 42.4,
+      "workouts": [
+        {
+          "type": "Walking",
+          "category": "cardio",
+          "duration": 14.12,
+          "start_time": "11:19"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 23.98,
+          "start_time": "11:34"
+        },
+        {
+          "type": "HighIntensityIntervalTraining",
+          "category": "other",
+          "duration": 4.32,
+          "start_time": "11:58"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-09-01": {
+      "date": "2025-09-01",
+      "year": 2025,
+      "month": 9,
+      "day": 1,
+      "weekday": 0,
+      "workout_count": 1,
+      "total_duration": 55.5,
+      "workouts": [
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 55.53,
+          "start_time": "09:59"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-09-04": {
+      "date": "2025-09-04",
+      "year": 2025,
+      "month": 9,
+      "day": 4,
+      "weekday": 3,
+      "workout_count": 1,
+      "total_duration": 12.9,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 12.87,
+          "start_time": "16:23"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-09-06": {
+      "date": "2025-09-06",
+      "year": 2025,
+      "month": 9,
+      "day": 6,
+      "weekday": 5,
+      "workout_count": 1,
+      "total_duration": 39.5,
+      "workouts": [
+        {
+          "type": "FunctionalStrengthTraining",
+          "category": "strength",
+          "duration": 39.45,
+          "start_time": "09:23"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-09-08": {
+      "date": "2025-09-08",
+      "year": 2025,
+      "month": 9,
+      "day": 8,
+      "weekday": 0,
+      "workout_count": 1,
+      "total_duration": 40.8,
+      "workouts": [
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 40.82,
+          "start_time": "10:09"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-09-14": {
+      "date": "2025-09-14",
+      "year": 2025,
+      "month": 9,
+      "day": 14,
+      "weekday": 6,
+      "workout_count": 2,
+      "total_duration": 28.6,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 9.82,
+          "start_time": "17:35"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 18.82,
+          "start_time": "17:44"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-09-15": {
+      "date": "2025-09-15",
+      "year": 2025,
+      "month": 9,
+      "day": 15,
+      "weekday": 0,
+      "workout_count": 2,
+      "total_duration": 48.7,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 6.45,
+          "start_time": "10:06"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 42.22,
+          "start_time": "10:12"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-09-18": {
+      "date": "2025-09-18",
+      "year": 2025,
+      "month": 9,
+      "day": 18,
+      "weekday": 3,
+      "workout_count": 3,
+      "total_duration": 44.2,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 6.55,
+          "start_time": "11:54"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 20,
+          "start_time": "12:01"
+        },
+        {
+          "type": "CardioDance",
+          "category": "other",
+          "duration": 17.63,
+          "start_time": "19:53"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-09-20": {
+      "date": "2025-09-20",
+      "year": 2025,
+      "month": 9,
+      "day": 20,
+      "weekday": 5,
+      "workout_count": 1,
+      "total_duration": 51.6,
+      "workouts": [
+        {
+          "type": "Pilates",
+          "category": "flexibility",
+          "duration": 51.63,
+          "start_time": "11:52"
+        }
+      ],
+      "primary_category": "flexibility"
+    },
+    "2025-09-21": {
+      "date": "2025-09-21",
+      "year": 2025,
+      "month": 9,
+      "day": 21,
+      "weekday": 6,
+      "workout_count": 1,
+      "total_duration": 58.7,
+      "workouts": [
+        {
+          "type": "Walking",
+          "category": "cardio",
+          "duration": 58.72,
+          "start_time": "09:31"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-09-22": {
+      "date": "2025-09-22",
+      "year": 2025,
+      "month": 9,
+      "day": 22,
+      "weekday": 0,
+      "workout_count": 3,
+      "total_duration": 63.3,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 9.28,
+          "start_time": "08:36"
+        },
+        {
+          "type": "Boxing",
+          "category": "other",
+          "duration": 2.9,
+          "start_time": "08:46"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 51.15,
+          "start_time": "09:05"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-09-23": {
+      "date": "2025-09-23",
+      "year": 2025,
+      "month": 9,
+      "day": 23,
+      "weekday": 1,
+      "workout_count": 1,
+      "total_duration": 38.3,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 38.28,
+          "start_time": "16:53"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-09-24": {
+      "date": "2025-09-24",
+      "year": 2025,
+      "month": 9,
+      "day": 24,
+      "weekday": 2,
+      "workout_count": 1,
+      "total_duration": 36.4,
+      "workouts": [
+        {
+          "type": "FunctionalStrengthTraining",
+          "category": "strength",
+          "duration": 36.35,
+          "start_time": "16:21"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-09-29": {
+      "date": "2025-09-29",
+      "year": 2025,
+      "month": 9,
+      "day": 29,
+      "weekday": 0,
+      "workout_count": 2,
+      "total_duration": 57.6,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 11.92,
+          "start_time": "08:44"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 45.63,
+          "start_time": "09:08"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-09-30": {
+      "date": "2025-09-30",
+      "year": 2025,
+      "month": 9,
+      "day": 30,
+      "weekday": 1,
+      "workout_count": 1,
+      "total_duration": 52.9,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 52.88,
+          "start_time": "16:36"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-10-01": {
+      "date": "2025-10-01",
+      "year": 2025,
+      "month": 10,
+      "day": 1,
+      "weekday": 2,
+      "workout_count": 1,
+      "total_duration": 43.4,
+      "workouts": [
+        {
+          "type": "FunctionalStrengthTraining",
+          "category": "strength",
+          "duration": 43.35,
+          "start_time": "16:15"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-10-02": {
+      "date": "2025-10-02",
+      "year": 2025,
+      "month": 10,
+      "day": 2,
+      "weekday": 3,
+      "workout_count": 1,
+      "total_duration": 23,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 23.02,
+          "start_time": "06:52"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-10-04": {
+      "date": "2025-10-04",
+      "year": 2025,
+      "month": 10,
+      "day": 4,
+      "weekday": 5,
+      "workout_count": 1,
+      "total_duration": 29.4,
+      "workouts": [
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 29.45,
+          "start_time": "14:50"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-10-05": {
+      "date": "2025-10-05",
+      "year": 2025,
+      "month": 10,
+      "day": 5,
+      "weekday": 6,
+      "workout_count": 1,
+      "total_duration": 51.2,
+      "workouts": [
+        {
+          "type": "Tennis",
+          "category": "sports",
+          "duration": 51.23,
+          "start_time": "16:09"
+        }
+      ],
+      "primary_category": "sports"
+    },
+    "2025-10-06": {
+      "date": "2025-10-06",
+      "year": 2025,
+      "month": 10,
+      "day": 6,
+      "weekday": 0,
+      "workout_count": 2,
+      "total_duration": 51,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 10.53,
+          "start_time": "09:03"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 40.43,
+          "start_time": "09:14"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-10-07": {
+      "date": "2025-10-07",
+      "year": 2025,
+      "month": 10,
+      "day": 7,
+      "weekday": 1,
+      "workout_count": 1,
+      "total_duration": 28.3,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 28.32,
+          "start_time": "06:28"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-10-08": {
+      "date": "2025-10-08",
+      "year": 2025,
+      "month": 10,
+      "day": 8,
+      "weekday": 2,
+      "workout_count": 1,
+      "total_duration": 34.4,
+      "workouts": [
+        {
+          "type": "FunctionalStrengthTraining",
+          "category": "strength",
+          "duration": 34.4,
+          "start_time": "16:20"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-10-09": {
+      "date": "2025-10-09",
+      "year": 2025,
+      "month": 10,
+      "day": 9,
+      "weekday": 3,
+      "workout_count": 2,
+      "total_duration": 58.5,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 8.07,
+          "start_time": "08:58"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 50.47,
+          "start_time": "09:06"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-10-11": {
+      "date": "2025-10-11",
+      "year": 2025,
+      "month": 10,
+      "day": 11,
+      "weekday": 5,
+      "workout_count": 1,
+      "total_duration": 40.4,
+      "workouts": [
+        {
+          "type": "FunctionalStrengthTraining",
+          "category": "strength",
+          "duration": 40.42,
+          "start_time": "09:22"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-10-13": {
+      "date": "2025-10-13",
+      "year": 2025,
+      "month": 10,
+      "day": 13,
+      "weekday": 0,
+      "workout_count": 2,
+      "total_duration": 31.6,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 7.52,
+          "start_time": "07:38"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 24.03,
+          "start_time": "07:46"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-10-26": {
+      "date": "2025-10-26",
+      "year": 2025,
+      "month": 10,
+      "day": 26,
+      "weekday": 6,
+      "workout_count": 1,
+      "total_duration": 59.3,
+      "workouts": [
+        {
+          "type": "Tennis",
+          "category": "sports",
+          "duration": 59.27,
+          "start_time": "17:02"
+        }
+      ],
+      "primary_category": "sports"
+    },
+    "2025-11-01": {
+      "date": "2025-11-01",
+      "year": 2025,
+      "month": 11,
+      "day": 1,
+      "weekday": 5,
+      "workout_count": 2,
+      "total_duration": 77.7,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 10.12,
+          "start_time": "12:51"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 67.62,
+          "start_time": "13:09",
+          "exercises": [
+            {
+              "name": "Bench Press",
+              "sets": [
+                {
+                  "kg": 9,
+                  "reps": 7
+                },
+                {
+                  "kg": 9,
+                  "reps": 7
+                }
+              ]
+            },
+            {
+              "name": "Shoulder Press",
+              "sets": [
+                {
+                  "kg": 9,
+                  "reps": 6
+                },
+                {
+                  "kg": 8,
+                  "reps": 6
+                }
+              ]
+            },
+            {
+              "name": "Row",
+              "sets": [
+                {
+                  "kg": 35,
+                  "reps": 7
+                },
+                {
+                  "kg": 35,
+                  "reps": 6
+                }
+              ]
+            },
+            {
+              "name": "Pull Down",
+              "sets": [
+                {
+                  "kg": 35,
+                  "reps": 6
+                },
+                {
+                  "kg": 35,
+                  "reps": 6
+                }
+              ]
+            },
+            {
+              "name": "Bicep Curl",
+              "sets": [
+                {
+                  "kg": 5,
+                  "reps": 10
+                },
+                {
+                  "kg": 5,
+                  "reps": 10
+                }
+              ]
+            },
+            {
+              "name": "Tricep",
+              "sets": [
+                {
+                  "kg": 15,
+                  "reps": 11
+                },
+                {
+                  "kg": 0,
+                  "reps": 0
+                }
+              ]
+            },
+            {
+              "name": "Split Squat",
+              "sets": [
+                {
+                  "kg": 7,
+                  "reps": 6
+                },
+                {
+                  "kg": 7,
+                  "reps": 7
+                }
+              ]
+            },
+            {
+              "name": "Glute Drive",
+              "sets": [
+                {
+                  "kg": 40,
+                  "reps": 6
+                },
+                {
+                  "kg": 40,
+                  "reps": 6
+                }
+              ]
+            },
+            {
+              "name": "Unilateral RDL",
+              "sets": [
+                {
+                  "kg": 8,
+                  "reps": 12
+                },
+                {
+                  "kg": 8,
+                  "reps": 12
+                }
+              ]
+            },
+            {
+              "name": "Box Squat",
+              "sets": [
+                {
+                  "kg": 10,
+                  "reps": 10
+                },
+                {
+                  "kg": 15,
+                  "reps": 10
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-11-02": {
+      "date": "2025-11-02",
+      "year": 2025,
+      "month": 11,
+      "day": 2,
+      "weekday": 6,
+      "workout_count": 2,
+      "total_duration": 137.6,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 59.58,
+          "start_time": "11:57"
+        },
+        {
+          "type": "Tennis",
+          "category": "sports",
+          "duration": 78.02,
+          "start_time": "17:04"
+        }
+      ],
+      "primary_category": "sports"
+    },
+    "2025-11-05": {
+      "date": "2025-11-05",
+      "year": 2025,
+      "month": 11,
+      "day": 5,
+      "weekday": 2,
+      "workout_count": 1,
+      "total_duration": 48.6,
+      "workouts": [
+        {
+          "type": "FunctionalStrengthTraining",
+          "category": "strength",
+          "duration": 48.62,
+          "start_time": "17:21"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-11-06": {
+      "date": "2025-11-06",
+      "year": 2025,
+      "month": 11,
+      "day": 6,
+      "weekday": 3,
+      "workout_count": 2,
+      "total_duration": 53.3,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 5.3,
+          "start_time": "09:54"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 48.03,
+          "start_time": "10:06",
+          "exercises": [
+            {
+              "name": "Split Squat",
+              "sets": [
+                {
+                  "kg": 7,
+                  "reps": 7
+                },
+                {
+                  "kg": 7,
+                  "reps": 7
+                }
+              ]
+            },
+            {
+              "name": "Glute Drive",
+              "sets": [
+                {
+                  "kg": 45,
+                  "reps": 6
+                },
+                {
+                  "kg": 45,
+                  "reps": 6
+                }
+              ]
+            },
+            {
+              "name": "Unilateral RDL",
+              "sets": [
+                {
+                  "kg": 8,
+                  "reps": 12
+                },
+                {
+                  "kg": 9,
+                  "reps": 8
+                }
+              ]
+            },
+            {
+              "name": "Box Squat",
+              "sets": [
+                {
+                  "kg": 25,
+                  "reps": 3
+                },
+                {
+                  "kg": 25,
+                  "reps": 3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-11-08": {
+      "date": "2025-11-08",
+      "year": 2025,
+      "month": 11,
+      "day": 8,
+      "weekday": 5,
+      "workout_count": 2,
+      "total_duration": 87.5,
+      "workouts": [
+        {
+          "type": "FunctionalStrengthTraining",
+          "category": "strength",
+          "duration": 37.52,
+          "start_time": "10:23"
+        },
+        {
+          "type": "Badminton",
+          "category": "sports",
+          "duration": 50,
+          "start_time": "16:15"
+        }
+      ],
+      "primary_category": "sports"
+    },
+    "2025-11-09": {
+      "date": "2025-11-09",
+      "year": 2025,
+      "month": 11,
+      "day": 9,
+      "weekday": 6,
+      "workout_count": 2,
+      "total_duration": 90.1,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 32.43,
+          "start_time": "11:36"
+        },
+        {
+          "type": "Tennis",
+          "category": "sports",
+          "duration": 57.67,
+          "start_time": "17:06"
+        }
+      ],
+      "primary_category": "sports"
+    },
+    "2025-11-10": {
+      "date": "2025-11-10",
+      "year": 2025,
+      "month": 11,
+      "day": 10,
+      "weekday": 0,
+      "workout_count": 3,
+      "total_duration": 74.2,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 16.02,
+          "start_time": "10:04"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 38.73,
+          "start_time": "10:20",
+          "personal_training": true,
+          "exercises": [
+            {
+              "name": "Split Squat",
+              "sets": [
+                {
+                  "kg": 8,
+                  "reps": 8
+                },
+                {
+                  "kg": 8,
+                  "reps": 8
+                }
+              ]
+            },
+            {
+              "name": "Glute Drive",
+              "sets": [
+                {
+                  "kg": 45,
+                  "reps": 6
+                },
+                {
+                  "kg": 45,
+                  "reps": 7
+                }
+              ]
+            },
+            {
+              "name": "Unilateral RDL",
+              "sets": [
+                {
+                  "kg": 12.5,
+                  "reps": 8
+                },
+                {
+                  "kg": 12.5,
+                  "reps": 8
+                }
+              ]
+            },
+            {
+              "name": "Bicep Curl",
+              "sets": [
+                {
+                  "kg": 4,
+                  "reps": 12
+                },
+                {
+                  "kg": 12,
+                  "reps": 0
+                }
+              ]
+            },
+            {
+              "name": "Tricep",
+              "sets": [
+                {
+                  "kg": 45,
+                  "reps": 12
+                },
+                {
+                  "kg": 50,
+                  "reps": 12
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Walking",
+          "category": "cardio",
+          "duration": 19.47,
+          "start_time": "20:48"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-11-11": {
+      "date": "2025-11-11",
+      "year": 2025,
+      "month": 11,
+      "day": 11,
+      "weekday": 1,
+      "workout_count": 1,
+      "total_duration": 42.5,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 42.48,
+          "start_time": "20:16"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-11-12": {
+      "date": "2025-11-12",
+      "year": 2025,
+      "month": 11,
+      "day": 12,
+      "weekday": 2,
+      "workout_count": 1,
+      "total_duration": 64.6,
+      "workouts": [
+        {
+          "type": "FunctionalStrengthTraining",
+          "category": "strength",
+          "duration": 64.63,
+          "start_time": "17:18"
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-11-13": {
+      "date": "2025-11-13",
+      "year": 2025,
+      "month": 11,
+      "day": 13,
+      "weekday": 3,
+      "workout_count": 3,
+      "total_duration": 106.3,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 10.98,
+          "start_time": "09:05"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 32.58,
+          "start_time": "09:16",
+          "exercises": [
+            {
+              "name": "Bench Press",
+              "sets": [
+                {
+                  "kg": 20,
+                  "reps": 8
+                },
+                {
+                  "kg": 20,
+                  "reps": 8
+                }
+              ]
+            },
+            {
+              "name": "Split Squat",
+              "sets": [
+                {
+                  "kg": 8,
+                  "reps": 8
+                },
+                {
+                  "kg": 8,
+                  "reps": 8
+                }
+              ]
+            },
+            {
+              "name": "Glute Drive",
+              "sets": [
+                {
+                  "kg": 45,
+                  "reps": 7
+                },
+                {
+                  "kg": 45,
+                  "reps": 6
+                }
+              ]
+            },
+            {
+              "name": "Unilateral RDL",
+              "sets": [
+                {
+                  "kg": 8,
+                  "reps": 12
+                },
+                {
+                  "kg": 8,
+                  "reps": 12
+                }
+              ]
+            },
+            {
+              "name": "Box Squat (Goblet)",
+              "sets": [
+                {
+                  "kg": 30,
+                  "reps": 10
+                },
+                {
+                  "kg": 35,
+                  "reps": 7
+                }
+              ]
+            },
+            {
+              "name": "Sled",
+              "sets": [
+                {
+                  "kg": 20,
+                  "reps": 4
+                },
+                {
+                  "kg": 25,
+                  "reps": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 62.72,
+          "start_time": "17:27"
+        }
+      ],
+      "primary_category": "cardio"
+    },
+    "2025-11-14": {
+      "date": "2025-11-14",
+      "year": 2025,
+      "month": 11,
+      "day": 14,
+      "weekday": 4,
+      "workout_count": 2,
+      "total_duration": 56.6,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 5.12,
+          "start_time": "06:35"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 51.53,
+          "start_time": "06:44",
+          "exercises": [
+            {
+              "name": "Glute Drive",
+              "sets": [
+                {
+                  "kg": 50,
+                  "reps": 7
+                },
+                {
+                  "kg": 50,
+                  "reps": 5
+                }
+              ]
+            },
+            {
+              "name": "Box Squat (Goblet)",
+              "sets": [
+                {
+                  "kg": 30,
+                  "reps": 5
+                }
+              ]
+            },
+            {
+              "name": "Shoulder Press",
+              "sets": [
+                {
+                  "kg": 8,
+                  "reps": 8
+                },
+                {
+                  "kg": 8,
+                  "reps": 8
+                }
+              ]
+            },
+            {
+              "name": "Row",
+              "sets": [
+                {
+                  "kg": 40,
+                  "reps": 8
+                },
+                {
+                  "kg": 40,
+                  "reps": 7
+                }
+              ]
+            },
+            {
+              "name": "Pull Down",
+              "sets": [
+                {
+                  "kg": 35,
+                  "reps": 10
+                },
+                {
+                  "kg": 45,
+                  "reps": 6
+                }
+              ]
+            },
+            {
+              "name": "Bicep Curl",
+              "sets": [
+                {
+                  "kg": 3,
+                  "reps": 8
+                },
+                {
+                  "kg": 4,
+                  "reps": 8
+                }
+              ]
+            },
+            {
+              "name": "Tricep",
+              "sets": [
+                {
+                  "kg": 51.5,
+                  "reps": 12
+                },
+                {
+                  "kg": 51.5,
+                  "reps": 12
+                }
+              ]
+            },
+            {
+              "name": "Sled",
+              "sets": [
+                {
+                  "kg": 20,
+                  "reps": 4
+                },
+                {
+                  "kg": 20,
+                  "reps": 4
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "primary_category": "strength"
+    },
+    "2025-11-15": {
+      "date": "2025-11-15",
+      "year": 2025,
+      "month": 11,
+      "day": 15,
+      "weekday": 5,
+      "workout_count": 2,
+      "total_duration": 119.1,
+      "workouts": [
+        {
+          "type": "Running",
+          "category": "cardio",
+          "duration": 81.73,
+          "start_time": "09:48"
+        },
+        {
+          "type": "TraditionalStrengthTraining",
+          "category": "strength",
+          "duration": 37.4,
+          "start_time": "11:21",
+          "exercises": [
+            {
+              "name": "Split Squat",
+              "sets": [
+                {
+                  "kg": 7,
+                  "reps": 7
+                },
+                {
+                  "kg": 7,
+                  "reps": 7
+                }
+              ]
+            },
+            {
+              "name": "Glute Drive",
+              "sets": [
+                {
+                  "kg": 45,
+                  "reps": 6
+                },
+                {
+                  "kg": 50,
+                  "reps": 6
+                }
+              ]
+            },
+            {
+              "name": "Unilateral RDL",
+              "sets": [
+                {
+                  "kg": 9,
+                  "reps": 12
+                },
+                {
+                  "kg": 9,
+                  "reps": 12
+                }
+              ]
+            },
+            {
+              "name": "Box Squat (Goblet)",
+              "sets": [
+                {
+                  "kg": 30,
+                  "reps": 5
+                },
+                {
+                  "kg": 35,
+                  "reps": 3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "primary_category": "cardio"
+    }
+  },
+  "monthly_summaries": {
+    "2025-01": {
+      "workout_count": 1,
+      "total_duration": 264.2,
+      "categories": {
+        "other": 1
+      },
+      "active_days": 1
+    },
+    "2025-06": {
+      "workout_count": 1,
+      "total_duration": 59.92,
+      "categories": {
+        "other": 1
+      },
+      "active_days": 1
+    },
+    "2025-07": {
+      "workout_count": 28,
+      "total_duration": 1517.39,
+      "categories": {
+        "sports": 7,
+        "other": 6,
+        "cardio": 15
+      },
+      "active_days": 20
+    },
+    "2025-08": {
+      "workout_count": 27,
+      "total_duration": 904.85,
+      "categories": {
+        "other": 8,
+        "sports": 4,
+        "cardio": 7,
+        "flexibility": 1,
+        "strength": 7
+      },
+      "active_days": 18
+    },
+    "2025-09": {
+      "workout_count": 21,
+      "total_duration": 628.9,
+      "categories": {
+        "strength": 9,
+        "cardio": 9,
+        "other": 2,
+        "flexibility": 1
+      },
+      "active_days": 14
+    },
+    "2025-10": {
+      "workout_count": 14,
+      "total_duration": 450.51000000000005,
+      "categories": {
+        "strength": 7,
+        "cardio": 5,
+        "sports": 2
+      },
+      "active_days": 11
+    },
+    "2025-11": {
+      "workout_count": 23,
+      "total_duration": 958.3,
+      "categories": {
+        "cardio": 11,
+        "strength": 9,
+        "sports": 3
+      },
+      "active_days": 12
+    }
+  },
+  "category_colors": {
+    "cardio": "#FF6B6B",
+    "strength": "#4ECDC4",
+    "flexibility": "#45B7D1",
+    "sports": "#96CEB4",
+    "other": "#FFEAA7"
+  }
+}
